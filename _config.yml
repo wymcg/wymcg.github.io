@@ -22,13 +22,13 @@ domain: wymcg.github.io
 url: https://wymcg.github.io
 baseurl: /wymcg.github.io/
 repository: "wymcg/wymcg.github.io"
-title: wymcg
-subtitle: "placeholder subtitle"
+title: Will McGloughlin
+subtitle: "Software Developer"
 email: willem.mcg@gmail.com
 name: Will McGloughlin
 logo: "/assets/images/profile.png"
 description: >- # this means to ignore newlines until "baseurl:"
-  the personal website and blog of will mcgloughlin
+  todo add
 github_username: wymcg
 breadcrumbs: true
 mastodon:
@@ -37,7 +37,7 @@ mastodon:
 author:
   name: "Will McGloughlin"
   avatar: "/assets/images/profile.png"
-  bio: "Placeholder bio"
+  bio: "Will McGloughlin is a Software Engineer living in Chicago, IL. CHANGEME"
   location: "State College, PA"
   links:
     - label: "GitHub"
