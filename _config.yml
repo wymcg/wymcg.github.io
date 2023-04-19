@@ -21,23 +21,71 @@
 domain: wymcg.github.io
 url: https://wymcg.github.io
 baseurl: /wymcg.github.io/
-title: Your awesome title
-email: your-email@example.com
+repository: "wymcg/wymcg.github.io"
+title: wymcg
+subtitle: "placeholder subtitle"
+email: willem.mcg@gmail.com
+name: Will McGloughlin
+logo: "/assets/images/profile.png"
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  the personal website and blog of will mcgloughlin
+github_username: wymcg
+breadcrumbs: true
+mastodon:
+  - username: wymcg
+    instance: hackyderm.io
+author:
+  name: "Will McGloughlin"
+  avatar: "/assets/images/profile.png"
+  bio: "Placeholder bio"
+  location: "State College, PA"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/wymcg"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://hachyderm.io/@wymcg"
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/wymcg"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://hachyderm.io/@wymcg"
 
 # Build settings
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+include: ["_pages"]
 
-# Exclude from processing.
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+
+    # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
 # the internal "default list".
