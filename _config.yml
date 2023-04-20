@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 domain: wymcg.github.io
-url: https://wymcg.github.io
-baseurl: /wymcg.github.io/
+url: "https://wymcg.github.io"
+baseurl: ""
 repository: "wymcg/wymcg.github.io"
 title: Will McGloughlin
 subtitle: "Software Developer"
