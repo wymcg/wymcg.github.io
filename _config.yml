@@ -26,7 +26,7 @@ title: Will McGloughlin
 subtitle: "Software Developer"
 email: willem.mcg@gmail.com
 name: Will McGloughlin
-logo: "/assets/images/profile.png"
+logo: "/assets/images/logo.png"
 description: >- # this means to ignore newlines until "baseurl:"
   todo add
 github_username: wymcg
@@ -37,8 +37,8 @@ mastodon:
 author:
   name: "Will McGloughlin"
   avatar: "/assets/images/profile.png"
-  bio: "Will McGloughlin is a Software Engineer living in Chicago, IL. CHANGEME"
-  location: "State College, PA"
+#  bio: "Will McGloughlin is a Software Engineer living in Chicago, IL. CHANGEME"
+  location: "Chicago, IL"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
