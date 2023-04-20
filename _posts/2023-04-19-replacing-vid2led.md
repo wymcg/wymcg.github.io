@@ -1,9 +1,7 @@
 ---
 layout: posts
 title:  "Replacing Vid2led"
-subtitle: "test"
-
-[//]: # (date:   2023-04-19 18:00:00 -0400)
+date:   2023-04-19 20:01:00 -0400
 ---
 > What was Vid2led, and why am I replacing it?
 
