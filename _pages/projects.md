@@ -7,9 +7,7 @@ permalink: /projects/
 
 Matricks is an LED matrix control and simulation platform designed for user-extensible LED matrix control, intended to replace [vid2led](#vid2led).
 Users can develop custom plugins to define complex and interactive behaviors. 
-Matricks was written in Rust, and uses [Extism](https://extism.org) to interact with user plugins. 
-
-See the documentation [here](https://wymcg.github.io/matricks).
+Matricks was written in Rust, and uses [Extism](https://extism.org) to interact with user plugins. Check out the documentation [here](https://wymcg.github.io/matricks).
 
 
 ## Pluto12 Macropad
